@@ -5,7 +5,8 @@
 ```
 2. configure traefik.toml [API and dashboard configuration section]
 ```bash
-cd  traefik-library-image
+cd traefik-library-image
+vi traefik.toml
 insecure = true
 dashboard = true
 ```
